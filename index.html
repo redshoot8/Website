@@ -3,13 +3,14 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Балашов Игорь</title>
+    <title>Балашов Игорь Геннадьевич</title>
     <style>
         body {
             margin: 0;
             font-family: Arial, sans-serif;
             background-color: #121212;
             color: #e0e0e0;
+            line-height: 1.6;
         }
         header {
             background-color: #1f1f1f;
@@ -41,6 +42,9 @@
             max-width: 800px;
             margin: 0 auto;
         }
+        .project {
+            margin-bottom: 15px;
+        }
         footer {
             background-color: #1f1f1f;
             padding: 10px;
@@ -48,6 +52,16 @@
             position: fixed;
             bottom: 0;
             width: 100%;
+        }
+        .contact-info p {
+            margin: 5px 0;
+        }
+        a {
+            color: #03dac6;
+            text-decoration: none;
+        }
+        a:hover {
+            text-decoration: underline;
         }
     </style>
 </head>
@@ -63,23 +77,37 @@
     <section id="about">
         <div class="container">
             <h2>Обо мне</h2>
-            <p>Здесь будет краткая информация обо мне. Ты можешь добавить сюда свое описание, интересы и достижения.</p>
+            <p>
+                Меня зовут Балашов Игорь Геннадьевич. Я учусь в Московском Политехническом Университете на специальности
+                "Информатика и вычислительная техника". Я обожаю язык программирования Python и очень хочу стать
+                инженером машинного обучения.
+            </p>
         </div>
     </section>
     <section id="projects">
         <div class="container">
             <h2>Проекты</h2>
-            <p>Здесь можно будет разместить информацию о твоих проектах. Опиши свои работы, добавь ссылки и изображения.</p>
+            <div class="project">
+                <h3>Telegram PhotoBot</h3>
+                <p>Информация о проекте</p>
+            </div>
+            <div class="project">
+                <h3>PhotoEditor</h3>
+                <p>Информация о проекте</p>
+            </div>
         </div>
     </section>
     <section id="contact">
-        <div class="container">
+        <div class="container contact-info">
             <h2>Контакты</h2>
-            <p>Здесь можно добавить информацию о том, как с тобой связаться. Например, адрес электронной почты или ссылки на социальные сети.</p>
+            <p>Email: <a href="mailto:igor2233balashov@gmail.com">igor2233balashov@gmail.com</a></p>
+            <p>Telegram: <a href="https://t.me/redshoot8" target="_blank">@redshoot8</a></p>
+            <p>GitHub: <a href="https://github.com/redshoot8/Obsidian" target="_blank">redshoot8</a></p>
+            <p>Spotify: <a href="https://open.spotify.com/user/wud7kgn1szofgb5a5c2krs0nt?si=ce8a221eabf84b9f" target="_blank">Spotify Profile</a></p>
         </div>
     </section>
     <footer>
-        <p>&copy; 2024 Твое Имя. Все права защищены.</p>
+        <p>&copy; 2024 Балашов Игорь Геннадьевич. Все права защищены.</p>
     </footer>
 </body>
 </html>
