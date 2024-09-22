@@ -3,66 +3,9 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link href="styles.css" rel="stylesheet">
     <title>Балашов Игорь Геннадьевич</title>
-    <style>
-        body {
-            margin: 0;
-            font-family: Arial, sans-serif;
-            background-color: #121212;
-            color: #e0e0e0;
-            line-height: 1.6;
-        }
-        header {
-            background-color: #1f1f1f;
-            padding: 20px;
-            text-align: center;
-        }
-        header h1 {
-            margin: 0;
-            color: #bb86fc;
-        }
-        nav {
-            display: flex;
-            justify-content: center;
-            margin: 20px 0;
-        }
-        nav a {
-            color: #d9566e;
-            margin: 0 15px;
-            text-decoration: none;
-            font-weight: bold;
-        }
-        nav a:hover {
-            text-decoration: underline;
-        }
-        section {
-            padding: 20px;
-        }
-        .container {
-            max-width: 800px;
-            margin: 0 auto;
-        }
-        .project {
-            margin-bottom: 15px;
-        }
-        footer {
-            background-color: #1f1f1f;
-            padding: 10px;
-            text-align: center;
-            bottom: 0;
-            width: 100%;
-        }
-        .contact-info p {
-            margin: 5px 0;
-        }
-        a {
-            color: #03dac6;
-            text-decoration: none;
-        }
-        a:hover {
-            text-decoration: underline;
-        }
-    </style>
 </head>
 <body>
     <header>
@@ -89,29 +32,30 @@
         <div class="container">
             <h2>Проекты</h2>
             <div class="project">
+                <h3>DogCatAI</h3>
+                <img src="images/DogCatAI.png" alt="DogCatAI">
+                <p>DogCatAI - это веб-приложение со встроенными моделями нейронных сетей (разработанными мной).
+                    Основная цель сайта - знакомство пользователей любых возрастов
+                    с работой нейронных сетей на примере собак и кошек.</p>
+                <p>Репозиторий на GitHub: <a href="https://github.com/redshoot8/DogCatAI" target="_blank">DogCatAI</a></p>
+            </div>
+            <div class="project">
                 <h3>Telegram PhotoBot</h3>
-                <img src="https://github.com/redshoot8/Website/blob/main/images/PhotoBot.png?raw=true" alt="Telegram PhotoBot">
-                <p>PhotoBot - это мой Бот для Telegram, который угадывает объекты на изображении.
+                <img src="images/PhotoBot.png" alt="Telegram PhotoBot">
+                <p>PhotoBot - это Бот для Telegram, который угадывает объекты на изображении.
                     В него интегрирована предварительно обученная модель для классификации изображений.</p>
                 <p>Репозиторий на GitHub: <a href="https://github.com/redshoot8/PhotoBot" target="_blank">PhotoBot</a></p>
             </div>
             <div class="project">
                 <h3>PhotoEditor</h3>
-                <img src="https://github.com/redshoot8/Website/blob/main/images/PhotoEditor.png?raw=true" alt="PhotoEditor">
-                <p>PhotoEditor - это моя программа, которая позволяет производить базовые процедуры обработки изображения.
+                <img src="images/PhotoEditor.png" alt="PhotoEditor">
+                <p>PhotoEditor - это программа, которая позволяет производить базовые процедуры обработки изображения.
                     С ее помощью можно применить к изображению фильтры, вклеить одно изображение на второе, нарисовать что-то на изображении и т.д.</p>
                 <p>Репозиторий на GitHub: <a href="https://github.com/redshoot8/PhotoEditorProject" target="_blank">PhotoEditorProject</a></p>
             </div>
             <div class="project">
-                <h3>Random Number Image Generator Website</h3>
-                <img src="https://github.com/redshoot8/Website/blob/main/images/RandomNumberImageGeneratorWebsite.png?raw=true" alt="Random Number Image Generator Website">
-                <p>Random Number Image Generator Website - это мой вебсайт, который генерирует изображения со случайными числами заданной длины.
-                    В него интегрирована моя предварительно обученная модель по генерации изображений рукописных цифр.</p>
-                <p>Репозиторий на GitHub: <a href="https://github.com/redshoot8/RandNumImgGeneratorWebsite" target="_blank">RandNumImgGeneratorWebsite</a></p>
-            </div>
-            <div class="project">
                 <h3>MessageServerBot</h3>
-                <img src="https://github.com/redshoot8/Website/blob/main/images/MessageServerBot.png?raw=true" alt="Telegram PhotoBot">
+                <img src="images/MessageServerBot.png" alt="Telegram PhotoBot">
                 <p>MessageServerBot - это полноценное приложение, готовое к выпуску. Я сделал его в качестве тестового задания для одного из работодателей.
                 При разработке я использовал FastAPI, Aiogram3, Docker-Compose, Nginx, Redis, MongoDB и другие технологии.</p>
                 <p>Репозиторий на GitHub: <a href="https://github.com/redshoot8/MessageServerBot" target="_blank">MessageServerBot</a></p>
